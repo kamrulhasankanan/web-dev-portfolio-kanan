@@ -75,9 +75,28 @@ nav ul li a{
     font-size: 18px;
     color: #757575;
 }
-section img{
+.img-profile{
     height: 600px;
     width: 584px;
+}
+
+.about{
+    padding: 156px;
+    margin: 200px 200px;
+    align-items: center;
+    
+}
+
+.about-box{    
+    border-color: black;
+    background-color: white;
+    text-align: center;
+}
+
+.section-sub-des{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .primary-bg{
@@ -87,4 +106,23 @@ section img{
 }
 .scondary-bg{
     background-color: #FFF8F3;
+}
+
+/* skills style */
+.skill{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 230px;
+}
+.skill-items{
+    padding: 50px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin: 24px;
+    height: 377px;
+    width: 267px;
+    
+}
+.skills-title, .skills-description{
+    text-align: center;
+    margin: 0px 230px;
 }
